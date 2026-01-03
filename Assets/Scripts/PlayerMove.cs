@@ -25,8 +25,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        Vector3 movement = new Vector3(movementX, movementY, 0f); // Without Jump
-        // Vector3 movement = new Vector3(movementX, 0f, 0f); // With Jump, leave Y
+        Vector3 movement = new Vector3(movementX, movementY, 0f);
         transform.position += speed * Time.deltaTime * movement;
         // Debug.Log("Speed" + speed);
     }
