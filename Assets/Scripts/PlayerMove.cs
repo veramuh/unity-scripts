@@ -17,8 +17,6 @@ public class PlayerMove : MonoBehaviour
         movementX = movementVector.x;
         movementY = movementVector.y;
         // Debug.Log("move x: " + movementVector.x + " y: " + movementVector.y);
-
-        SoundManager.Instance.PlaySound("pop", 0.5f, false, null);
     }
     void OnSprint(InputValue sprintValue)
     {

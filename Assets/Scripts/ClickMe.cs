@@ -23,6 +23,7 @@ public class ClickMe : MonoBehaviour,
         Debug.Log("Mouse Down");
         mat.color = Color.green;
         EventManager.OnClickedThing();
+        SoundManager.Instance.PlaySound("pop2", 0.5f, false, null);
     }
 
     public void OnPointerUp(PointerEventData eventData)
