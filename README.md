@@ -1,11 +1,11 @@
 # unity-scripts
-# # ClickMe  
+## ClickMe  
 Click Events (Mouse Events), equivalent to MouseDown, MouseUp etc but for Input System Package  
 
-# # EventManager & ClickMeReaction  
+## EventManager & ClickMeReaction  
 Mini Event-Manager for sending Events to other Gameobjects  
 
-# # EndWithEsc  
+## EndWithEsc  
 A Script that ends Unity Playmode in the Editor or in the Build with pressing Esc  
 
 ## PlayerMove  
