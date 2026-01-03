@@ -4,13 +4,16 @@ using UnityEngine.InputSystem;
 
 public class EndWithEsc : MonoBehaviour
 {
-    void OnEsc()
+    void Update()
     {
-        Debug.Log("Exit");
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Exit");
 #if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
 #else
-                    Application.Quit();
+            Application.Quit();
 #endif
+        }
     }
 }
